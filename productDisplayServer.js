@@ -25,7 +25,6 @@ app.get('/products', (req, res) => {
 
 app.listen(3001, () => console.log('Display server running on port 3001'));
 
-const cors = require('cors');
 
 const allowedOrigins = [
     'https://natmarket.netlify.app',  // Producción
